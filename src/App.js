@@ -1,24 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+// import the css module here, but first, don't forget to rename the css file!
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <nav>
+        {/* use the class list to remove bullet points and align items side-by-side */}
+        <ul>
+          <li>Home</li>
+          <li>About Us</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
+      {/* use the class title to change the title color */}
+      <h1>Standard CSS!</h1>
+      <p>This is an example of standard CSS</p>
     </div>
   );
 }
