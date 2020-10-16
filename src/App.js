@@ -13,8 +13,8 @@ function App() {
         </ul>
       </nav>
       {/* use the class title to change the title color */}
-      <h1>Standard CSS!</h1>
-      <p>This is an example of standard CSS</p>
+      <h1>CSS Modules!</h1>
+      <p>This is an example of CSS Modules!</p>
     </div>
   );
 }
